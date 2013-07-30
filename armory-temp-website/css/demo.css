@@ -1,0 +1,243 @@
+
+html{
+  background: url('../image/backgrnd2.gif') top center no-repeat;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#data img{
+  width:400px;
+}
+.container{
+  width: 52%;
+  margin-left: 270px;
+  margin: 0 auto;
+}
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+width:83%;
+margin: 0 auto -4em;
+}
+
+.ie8 .wrapper{
+  width:517px;
+} 
+.ie8 .content p{
+  margin-left: 200px;
+  padding-bottom: 6%;
+}
+
+.ie8 .fancybox-media img{
+  position: relative;
+  left:215px;
+}
+
+/* navigation*/
+nav{
+ text-align: center;
+  padding-top: 10%;
+  width: 100%;
+  position: auto;
+}
+
+.content{
+  text-align: center;
+  font-family: Proxima Nova, sans-serif;
+  margin-top: 111px;
+  margin-right: 59px;
+}
+a.fancybox-media img{
+  position: center;
+  padding-bottom: 14%;
+}
+
+nav ul{
+ list-style: none;
+  text-align: center;
+  padding-right: 3%;
+}
+nav ul li{
+  display: inline;
+  color:  white;
+  font-size: 12.44pt;
+  padding-left: 2%;
+
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 12.44pt;
+
+}
+/*navigation*/
+
+
+a {
+  color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h2{
+  margin-top: 172px;
+}
+h2 img{
+display: inline;
+padding-top: 10px;
+position: relative;
+width: 79%;
+}
+
+.footer, .push {
+color:white;
+} 
+.footer{
+  font-family: Proxima Nova, sans-serif;
+  margin-top: 59px;
+  width:100%;
+  color: grey;
+  float:left;
+}
+
+.footer ul {
+  float: left;
+  margin-left: 5%;
+  list-style: none;
+}
+.footer ul li a{
+  font-family: Proxima Nova, sans-serif;
+  color:grey;
+}
+.arm ul li img{
+  width:67px;
+}
+.footer .MDC ul li img{
+  width: 97px;
+}
+
+.social{
+  margin-top: 13px;
+  float: left;
+  margin-left:10%;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+.MDC ul{
+  margin-top: 13px;
+  float: right;
+  margin-right: 5%;
+  color: grey;
+  text-decoration: none;
+  list-style: none;
+  font-size: 8pt;
+}
+h3{
+  float: left;
+  margin-top: -323px;
+  left: 4%;
+  position: relative;
+  padding: 0;
+  width: 100%;
+  font-size: 24pt;
+}
+.KEVINOSGOOD{
+  text-decoration: none;
+  display: inline;
+  float: left;
+}
+
+.MATTPIZZANO{
+  text-decoration: none;
+  display: inline;
+  float: left;
+  margin-top: 255px;
+}
+.CODYSTOKES{
+  text-decoration: none;
+  display: inline;
+  float: left;
+
+}
+
+.style{
+  position: relative;
+  font-family: Proxima Nova, sans-serif;
+  color: #999;
+  font-size: 12pt;
+  margin:350px auto;
+  text-align: center;
+  text-transform: uppercase;
+  /*margin:324px 0% 0% 42%;*/
+}
+
+.style h1{
+  font-size:22px;
+  margin:0 0 15px 0;
+  padding:0;
+}
+
+.style h2{
+  margin:0 0 10px 0;
+  font-size:16px;
+}
+
+.style a{
+  color:#999;
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 800px){
+ .container{
+  width: 73%;
+  margin: 0 auto;
+  }
+
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1000px){
+ .container{
+  width: 63%;
+  margin: 0 auto;
+  }
+  .CODYSTOKES{
+  text-decoration: none;
+  display: inline;
+  float: right;
+  margin-top: -40%;
+  }
+
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1400px){
+ .container{
+  width: 52%;
+  margin: 0 auto;
+  }
+.footer{
+	margin-top:25px;
+}
+
+
+}
+
+
+
+/*.container_12 {
+  background-image: url(../img/12_col.gif);
+}
+
+.container_16 {
+  background-image: url(../img/16_col.gif);
+}
+
+.container_24 {
+  background-image: url(../img/24_col.gif);
+}*/

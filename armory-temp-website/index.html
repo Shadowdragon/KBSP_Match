@@ -1,0 +1,77 @@
+<!doctype html>
+<head>
+	<title>Armoury | NY</title>
+	<link rel="stylesheet" href="css/demo.css"/>
+	<link rel="shortcut icon" href="favicon.ico" />
+	<style>
+
+	.wrong-password{
+		display:none;
+	}
+	</style>
+
+</head>	
+	<body>
+		
+	
+			<div class="style">
+				<h1>Welcome to the Armoury.</h1>
+				<h2>Please enter your password.</h2>
+			
+					<input name="pass" type="password">
+					<input id="scriptBox" type="button" value="Login" >
+			
+				<p>Contact <a href="mailto:cmasters@armourynyc.com">cmasters@armourynyc.com</a> for access</p>
+			</div>			
+	</body>
+	<script src="js/jquery.js"></script>		
+		<script language="javascript">
+		$(document).ready(function(){
+			function passCheck(){
+				var form = $('input[type=password]');
+				var password = form.val();
+					
+				if (password == 'kbs+armoury') {
+	                location="home.html" 
+	            } else {
+	                location="index.html" 
+	            }
+			}
+
+
+
+			$('#scriptBox').on('click', function(){
+				passCheck();
+			});
+
+
+			$('input').keypress(function(e) {
+			    if (e.keyCode === 13){
+			    	// alert('enter');
+			        $('#scriptBox').focus().click();
+			        // console.log('search submit'); 
+			        return false;
+			   }
+
+
+
+
+			  //  if(e.which == 13) {
+					// var form = $('input[type=password]');
+					// var password = form.val();
+						
+					// if (password == 'kbsarmoury') {
+		   //              location="home.html"
+		   //          } else {
+		   //              location="index.html" 
+		   //          }
+	    //         }			
+			});
+
+			
+		});
+
+
+		</script>
+		
+</html>

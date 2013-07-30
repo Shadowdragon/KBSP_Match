@@ -1,0 +1,182 @@
+body{
+  background: url('../image/backgrnd.gif') no-repeat;
+  background-color: black;
+}
+.container {
+float: left;
+margin: 0 auto;
+width: 1000px;
+padding-left: 186px;
+}
+
+.bio-wrapper{
+color: #FFF;
+float: left;
+padding-left: 8px;
+width: 770px;
+margin-top: 7px;
+}
+
+h2{
+  clear:both;
+  font-size:13px;
+}
+
+p{
+  clear:both;
+}
+
+.wrapper {
+min-height: 100%;
+height: auto !important;
+width: 100%;
+margin: 0 auto -4em;
+} 
+
+.ie8 section#video:{
+  font-family: Proxima Nova, sans-serif;
+  font-weight: normal;
+  color: white;
+  font-size: 10pt;
+
+}
+section#video{
+  font-family: Proxima Nova, sans-serif;
+  font-weight: normal;
+  color: white;
+  font-size: 10pt;
+  float: left;
+}
+.ie8 section#video h2{
+  float: left;
+  width:72%;
+  font-size: 13pt;
+}
+section#video h2{
+  float: left;
+  width:72%;
+  font-size: 13pt;
+}
+.ie8 section#video p{
+   font-size: 10pt;
+}
+
+section#video p{
+  font-size: 10pt;
+}
+
+.content h1{
+  font-family: Proxima Nova, sans-serif;
+  font-weight: normal;
+  color: white;
+  font-size: 10pt;
+  margin-right: 1590px;
+  text-align: center;
+
+}
+.v-1 img{
+  width: 100%;
+}
+.v-1{
+  float: left;
+  margin:12px 6px -54px 6px;
+  width: 24%;
+  min-height: 193px;
+}
+.v-1 h1{
+  font-family: Proxima Nova, sans-serif;
+  font-weight: normal;
+}
+.content{
+  margin-top: 90px
+}
+#logo{
+  float: left;
+}
+#logo img{
+  margin-left: 60px;
+  width: 79px;
+}
+#logo .Home a{
+  margin-left: 83px;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 img{
+  width: 300px;
+  float: left;
+  margin-left: -29px;
+}
+
+
+h2 {
+  color: white;
+  text-decoration: none;
+  font-size: 22.83pt;
+  /*margin: 10px;*/
+  float: left;
+
+}
+h2 p{
+  clear: both;
+}
+.footer{
+  font-family: Proxima Nova, sans-serif;
+  margin-top: 19%;
+  width:100%;
+  color: grey;
+  float:left;
+}
+
+.footer ul {
+  float: left;
+  margin-left: 5%;
+  list-style: none;
+}
+.footer ul li a{
+  font-family: Proxima Nova, sans-serif;
+  color:grey;
+}
+.arm ul li img{
+  width:67px;
+}
+.footer .MDC ul li img{
+  width: 97px;
+}
+
+.social{
+  margin-top: 13px;
+  float: left;
+  margin-left:10%;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+.MDC ul{
+  margin-top: 13px;
+  float: right;
+  margin-right: 5%;
+  color: grey;
+  text-decoration: none;
+  list-style: none;
+  font-size: 8pt;
+}
+
+
+/*.container_12 {
+  background-image: url(../img/12_col.gif);
+}
+
+.container_16 {
+  background-image: url(../img/16_col.gif);
+}
+
+.container_24 {
+  background-image: url(../img/24_col.gif);
+}*/
